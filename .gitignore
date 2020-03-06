@@ -1,0 +1,27 @@
+# NPM
+/node_modules
+npm-*
+/package-lock.json
+
+# Testing
+/.nyc_output
+/coverage
+
+# Build
+/build
+/dist
+/output
+/releases
+/.opt-in
+
+# generated translation files
+/translations
+/locale
+
+# Development Env (Jetbrains, Vim, macOS)
+.idea/
+*.swp
+.DS_Store
+
+# others
+/.eslintcache
