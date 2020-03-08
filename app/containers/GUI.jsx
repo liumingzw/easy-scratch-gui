@@ -5,6 +5,7 @@ import MainSpace from "./MainSpace.jsx";
 import Stage from "./Stage.jsx";
 import TargetsControl from "./TargetsControl.jsx";
 import TestRedux from "./TestRedux.jsx";
+import Init from "./Init.jsx";
 
 class GUI extends React.Component {
     render() {
@@ -17,8 +18,10 @@ class GUI extends React.Component {
                 bottom: "5px",
                 backgroundColor: "#e0e0e0"
             }}>
+                <Init/>
                 <div id="testRedux"
                      style={{
+                         display: "none",
                          position: "fixed",
                          top: "10px",
                          left: "10px",
