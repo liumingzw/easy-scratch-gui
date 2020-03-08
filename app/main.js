@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Component from './components/Component.jsx';
+import GUI from './containers/GUI.jsx';
 
 ReactDom.render(
-    <Component/>,
-    document.getElementById('content')
+    <GUI/>,
+    document.getElementById('container')
 );
-
