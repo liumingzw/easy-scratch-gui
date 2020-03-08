@@ -1,4 +1,9 @@
 import React from 'react';
+import Header1 from "./Header1.jsx";
+import Header2 from "./Header2.jsx";
+import MainSpace from "./MainSpace.jsx";
+import Stage from "./Stage.jsx";
+import TargetsControl from "./TargetsControl.jsx";
 
 class GUI extends React.Component {
     render() {
@@ -12,8 +17,10 @@ class GUI extends React.Component {
                 backgroundColor: "#e0e0e0"
             }}>
                 <div id="header1" style={{width: "100%", height: "48px", backgroundColor: "#a0a0a0"}}>
+                    <Header1/>
                 </div>
                 <div id="header2" style={{width: "100%", height: "44px", backgroundColor: "#f0f0f0"}}>
+                    <Header2/>
                 </div>
                 <div style={{
                     position: "absolute",
@@ -31,6 +38,7 @@ class GUI extends React.Component {
                         bottom: 0,
                         backgroundColor: "red"
                     }}>
+                        <MainSpace/>
                     </div>
                     <div id="stage" style={{
                         position: "absolute",
@@ -40,6 +48,7 @@ class GUI extends React.Component {
                         right: 0,
                         backgroundColor: "blue"
                     }}>
+                        <Stage/>
                     </div>
                     <div id="targetsControl" style={{
                         position: "absolute",
@@ -49,6 +58,7 @@ class GUI extends React.Component {
                         bottom: 0,
                         backgroundColor: "yellow"
                     }}>
+                        <TargetsControl/>
                     </div>
                 </div>
             </div>
