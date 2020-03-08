@@ -4,6 +4,7 @@ import Header2 from "./Header2.jsx";
 import MainSpace from "./MainSpace.jsx";
 import Stage from "./Stage.jsx";
 import TargetsControl from "./TargetsControl.jsx";
+import TestRedux from "./TestRedux.jsx";
 
 class GUI extends React.Component {
     render() {
@@ -16,6 +17,17 @@ class GUI extends React.Component {
                 bottom: "5px",
                 backgroundColor: "#e0e0e0"
             }}>
+                <div id="testRedux"
+                     style={{
+                         position: "fixed",
+                         top: "10px",
+                         left: "10px",
+                         width: "200px",
+                         height: "200px",
+                         backgroundColor: "#ccccff"
+                     }}>
+                    <TestRedux/>
+                </div>
                 <div id="header1" style={{width: "100%", height: "48px", backgroundColor: "#a0a0a0"}}>
                     <Header1/>
                 </div>
