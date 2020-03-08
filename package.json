@@ -1,7 +1,7 @@
 {
-  "name": "front-example-project",
+  "name": "easy-scratch-gui",
   "version": "1.0.0",
-  "description": "",
+  "description": "Make developing scratch3.0 easy",
   "main": "index.js",
   "scripts": {
     "start": "npm link easy-scratch-vm easy-scratch-blocks && webpack-dev-server",
@@ -10,15 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liumingzw/front-example-project.git"
+    "url": "git+https://github.com/liumingzw/easy-scratch-gui.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "scratch",
+    "scratch3.0",
+    "STEAM",
+    "liumingzw"
+  ],
+  "author": "liumingzw, email:374406742@qq.com",
+  "contributors": [
+    "liumingzw <374406742@qq.com>"
+  ],
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liumingzw/front-example-project/issues"
+    "url": "https://github.com/liumingzw/easy-scratch-gui/issues"
   },
-  "homepage": "https://github.com/liumingzw/front-example-project#readme",
+  "homepage": "https://github.com/liumingzw/easy-scratch-gui#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
